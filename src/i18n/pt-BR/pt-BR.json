@@ -1,0 +1,446 @@
+{
+  "locales": {
+    "language": "Escolha um idioma",
+    "en-US": "English",
+    "zh-CN": "中文",
+    "pt-BR": "Português"
+  },
+  "common": {
+    "back": "Voltar",
+    "noData": "Ops! Não encontramos nada.",
+    "nav": {
+      "cart": "Meu carrinho",
+      "confirmOrder": "Confirmar pedido",
+      "payOrder": "Ordem de pagamento"
+    }
+  },
+  "header": {
+    "login": "Login",
+    "logout": "Sair",
+    "cart": "Carrinho",
+    "favorite": {
+      "title": "Favoritos",
+      "favorites": "Produto favorito",
+      "favoriteStore": "Loja Favorita"
+    },
+    "search": {
+      "recent": "Pesquisas populares",
+      "popular": "Pesquisado recent"
+    }
+  },
+  "login": {
+    "signin": "LOGIN",
+    "signByCode": "Acesso Rápido",
+    "signByPsd": "Usar senha",
+    "placeholder": {
+      "email": "E-mail",
+      "psd": "Senha",
+      "verify": "Código de verificação"
+    },
+    "getVerifyCode": "Enviar código",
+    "savePsd": "Salvar senha",
+    "forgetPsd": "Esqueceu a senha?",
+    "signWith": "Acessar com / Fazer login com ",
+    "submit": "Login"
+  },
+  "userMenu": {
+    "modify": "Editar",
+    "system": "Mensagens do sistema",
+    "mymsg": "Minhas mensagens",
+    "favorite": "Meus favoritos",
+    "viewed": "Vistos recentemente"
+  },
+  "userInfo": {
+    "link": "Informação pessoal",
+    "basic": {
+      "title": "Informações básicas",
+      "profilePhoto": "Foto de perfil",
+      "uploadAvatar": "Envie seu avatar",
+      "nickName": "Apelido",
+      "name": "Nome",
+      "birthday": "Data de nascimento",
+      "gender": "Gênero",
+      "selectDate": "Selecionar data",
+      "male": "Masculino",
+      "female": "Feminino",
+      "private": "Privado"
+    },
+    "delivery": {
+      "title": "Endereço de entrega",
+      "consignee": "Destinatário",
+      "firstName": "Primeiro nome",
+      "lastName": "Sobrenome",
+      "phone": "Telefone",
+      "location": "Localização",
+      "address": "Endereço",
+      "email": "E-mail",
+      "default": "Principal",
+      "setDefault": "Definir como endereço de entrega principal",
+      "addNewAddress": "Adicionar novo endereço"
+    },
+    "security": {
+      "title": "Segurança",
+      "inputPsd": "Insira a senha",
+      "repeatPsd": "Repita a senha",
+      "sendSuccess": "Enviar sucesso ~",
+      "modifySuccess": "Modificar o sucesso ~"
+    }
+  },
+  "order": {
+    "link": "Meus pedidos",
+    "searchPlaceholder": "Nome do produto / Nº do pedido",
+    "orderDetail": {
+      "title": "Detalhes do pedido",
+      "orderInfo": {
+        "title": "Informações do pedido",
+        "createTime": "Horário do pedido"
+      },
+      "discountInfo": {
+        "payType": "Forma de pagamento",
+        "productAmount": "Valor do pedido",
+        "promotionAmount": "Promoção",
+        "couponsAmount": "Cupom",
+        "discountAmount": "Desconto",
+        "shippingAmount": "Valor do envio"
+      }
+    },
+    "logistics": {
+      "title": "Detalhe do envio",
+      "logisticsInfo": {
+        "title": "Informações de logística"
+      },
+      "orderInfo": {
+        "title": "Informações do pedido",
+        "waybillNumber": "Código de rastreio",
+        "logisticsCompany": "Empresa de logística",
+        "consumerHotline": "Contato direto com o comprador",
+        "sellerNickname": "Apelido do vendedor",
+        "deliveryAddress": "Enviado de",
+        "shippingAddress": "Endereço de entrega"
+      }
+    },
+    "orderTab": {
+      "all": "Todos",
+      "unpaid": "Pagamento pendente",
+      "toBeReceive": "A ser recebido",
+      "finish": "Concluído",
+      "cancel": "Cancelado"
+    },
+    "orderStatus": {
+      "unPay": "Pagamento pendente",
+      "pay": "A ser enviado",
+      "paying": "Pagando",
+      "delivery": "A ser recebido",
+      "finish": "Para ser avaliado",
+      "close": "Cancelado",
+      "invalid": "Expirado"
+    },
+    "logisticsStatus": {
+      "waitingForPackage": "Aguardando a transportadora",
+      "transport": "Em trânsito",
+      "deliver": "Saiu para entrega",
+      "signFor": "Registrar-se para"
+    },
+    "table": {
+      "detail": "Descrição",
+      "price": "Preço unitário",
+      "num": "Quantidade",
+      "status": "Status",
+      "actuaPayment": "Valor a ser pago",
+      "totalAmount": "Valor total",
+      "operate": "Operação",
+      "orderNo": "Número do pedido",
+      "contactUs": "Fale conosco"
+    },
+    "comment": {
+      "title": "Reveja",
+      "mtitle": "Produtos adquiridos",
+      "submit": "Enviar revisão",
+      "averageRating": "Classificação média",
+      "rating": "Avaliação",
+      "comment": "Comente",
+      "upload": "Enviar imagens",
+      "commentPlaceholder": "Por favor insira",
+      "anonymous": "Avaliação anônima"
+    },
+    "operate": {
+      "paying": "Pagando",
+      "payNow": "PAGAR AGORA",
+      "addToCart": "ADICIONAR AO CARRINHO",
+      "confirmReceive": "CONFIRMAR RECEBIMENTO",
+      "cancelOrder": "CANCELAR PEDIDO",
+      "deleteOrder": "EXCLUIR PEDIDO",
+      "addReview": "AVALIAR",
+      "appendReview": "COMPLEMENTAR AVALIAÇÃO",
+      "orderDetail": "Detalhes do pedido",
+      "logisticsDetail": "Exibir Logística",
+      "refund": "REEMBOLSO PEDIDO",
+      "return": "SOLICITAR RETORNO",
+      "afterSale": "PÓS-VENDA"
+    }
+  },
+  "systemMsg": {
+    "link": "Mensagem do sistema",
+    "tabTitle": "Notificações"
+  },
+  "mymsg": {
+    "link": "Minhas mensagens",
+    "promotions": "Promoções ",
+    "community": "Comunidade",
+    "onlineService": "Atendimento ao cliente"
+  },
+  "induce": {
+    "download": "Baixar aplicativo!",
+    "desc": "{feature} FUNÇÃO DISPONÍVEL APENAS EM  NOSSO APP!",
+    "features": {
+      "favorites": "FAVORITOS"
+    }
+  },
+  "cart": {
+    "inStock": "Em estoque",
+    "soldOut": "Esgotado",
+    "viewMyCart": "Ver meu carrinho",
+    "operate": {
+      "edit": "Modificar especificações",
+      "collect": "Coletar",
+      "checkOut": "Fechar Pedido"
+    }
+  },
+  "confirmOrder": {
+    "deliverTo": "Entregar para",
+    "placeOrder": "Finalizar pedido"
+  },
+  "validate": {
+    "customRequired": "O preenchimento é obrigatório.",
+    "domain": "Formato Inválido.",
+    "ipAddress": "apenas números permitidos, caracteres especiais '.'.",
+    "email": "O formato de email está incorreto.",
+    "fixedLength": "O comprimento do {_field_} deve ser {len}.",
+    "areaLength": "{_field_} tem {minLen} ~ {maxLen} caracteres.",
+    "repeatPsd": "As senhas digitadas não são iguais!",
+    "imgFormat": "O upload de uma imagem só pode ser no formato do {format}!",
+    "imgSize": "Carregar imagens não grandes do que {size}!"
+  },
+  "error": {
+    "errorTitle": "Notificação",
+    "errorMessage": "<strong> Tente novamente mais tarde. </strong> <br> O serviço está temporariamente indisponível. <br> Se essa falha persistir, entre em contato com nossa Central de Ajuda."
+  },
+  "actions": {
+    "delete": "Excluir",
+    "save": "Salvar",
+    "edit": "Editar",
+    "create": "Criar",
+    "add": "Adicionar",
+    "ok": "OK",
+    "cancel": "Cancelar",
+    "clear": "Limpar tudo"
+  },
+  "date": {
+    "yearMonth": "{month}/{year}",
+    "dayYearMonth": "{day}/{month}/{year}",
+    "timeDayYearMonth": "{time} {day}/{month}/.{year}",
+    "year": " ",
+    "month": " ",
+    "mon": "Segunda-feira",
+    "tue": "Terça-feira",
+    "wed": "Quarta-feira",
+    "thu": "Quinta-feira",
+    "fri": "Sexta-feira",
+    "sat": "Sábado",
+    "sun": "Domingo"
+  },
+  "months": {
+    "1": "Jan",
+    "2": "Fev",
+    "3": "Mar",
+    "4": "Abr",
+    "5": "Mai",
+    "6": "Jun",
+    "7": "Jul",
+    "8": "Ago",
+    "9": "Set",
+    "10": "Out",
+    "11": "Nov",
+    "12": "Dec"
+  },
+  "confirm": {
+    "title": "Aviso prévio",
+    "desc": "Confirme para excluir o {info}?",
+    "info": {
+      "address": "Endereço"
+    }
+  },
+  "product": {
+    "category": "Categoria",
+    "flash": "Oferta Relâmpago ",
+    "group": "Compra em Grupo",
+    "topBrand": "Marcas Mais Procuradas",
+    "mayLike": "Talvez Você Goste",
+    "allBrand": "Todas As Marcas",
+    "hot": "MAIS VENDIDOS",
+    "proLefts": "Faltam {remainNum} pessoas",
+    "proLeft": "Falta {remainNum} pessoa",
+    "priceUnit": "R$",
+    "discount": "{discount}%",
+    "discountUnit": "OFF",
+    "semInfo": "{num}x R${perPayment} {semJuros}",
+    "semJuros": "sem juros",
+    "noSemJuros": "",
+    "getReviews": "Ver avaliações({commentNum}）",
+    "stock": "Estoque({stock})",
+    "description": "Descrição",
+    "parameter": "Especificação",
+    "reviews": "Avaliações({commentNum})",
+    "addToCart": "Adicionar ao Carrinho",
+    "buyNow": "Comprar Agora",
+    "joinNow": "Entrar",
+    "quantity": "Quantidade",
+    "allComment": "Detalhes da avaliação({commentNum})",
+    "star": "{star} Estrela",
+    "stars": "{star} Estrelas",
+    "flashFinishTime": "Tempo restante",
+    "hours": "Horas",
+    "minutes": "Mins",
+    "seconds": "Segus",
+    "viewMore": "Ver mais",
+    "noMore": "Fim dos resultados",
+    "loading": "Carregando",
+    "addSucess": "Adicionado com sucesso ",
+    "anonymity": "Anônimo",
+    "addCollect": "Coletar",
+    "unCollect": "Cancelar coleta",
+    "sort": "Classificar por",
+    "brand": "Marcas",
+    "searchPlaceholder": "Digite a sua pesquisa",
+    "day": "Dia",
+    "timefinished": "Horário de término",
+    "timeupcoming": "Horário de início",
+    "pleaseSelectSku": "Selecione o produto"
+  },
+  "txtInfo": {
+    "aboutUs": {
+      "title": "Sobre nós",
+      "p1": "O Sambawake foi fundado pela Sambado Information Technology. A empresa possui escritórios em São Paulo, Rio de Janeiro, Pequim, Xangai, Berlim e Tóquio. Os membros da equipe fundadora vieram de importantes empresas de Internet móvel e de cadeias de suprimentos, com experiência em produtos, operações, tráfego e comércio eletrônico móvel e com profundo conhecimento das cadeias de suprimentos na China, Alemanha e Japão.",
+      "p2": "Sambawake é a principal plataforma de compras on-line do Brasil, conectando compradores brasileiros a vendedores internacionais que oferecem os produtos mais vendidos a preços baixos. Sambawake hospeda produtos em uma ampla gama de categorias, incluindo brinquedos, produtos eletrônicos, casa, moda feminina e masculina, pet shop e muito mais. Sambawake fornece um plano de proteção ao comprador, uma política de reembolso seguro, entrega expressa e rastreamento de pedidos. O Sambawake suporta vários idiomas, moedas e métodos de pagamento e está comprometido em oferecer aos clientes uma melhor experiência de compra e se esforçando para construir uma marca de renome mundial.",
+      "p3": "Cadeias de suprimentos de alta qualidade em todo o mundo.",
+      "p4": "Obtenha preços baixos nos produtos mais vendidos.",
+      "p5": "Equipe de comércio eletrônico de nível superior e operações de localização."
+    },
+    "contactUs": {
+      "title": "Fale Conosco",
+      "p1": "Olá, bem-vindo(a) ao Sambawake. Se você tiver alguma dúvida, por favor entre em contato conosco. Ficaremos muito felizes e faremos o melhor para te atender.",
+      "p2": "O nosso e-mail é : support@sambado.com . Te esperamos!"
+    },
+    "privacy": {
+      "title": "Política de Privacidade",
+      "firTitle": "Escopo da Política de Privacidade",
+      "firp1": "Esta Política de Privacidade rege a maneira pela qual o Sambawake coleta, usa, mantém e divulga as informações coletadas dos usuários (cada um, um \"Usuário\") do site do Sambawake (\"Site\"). Esta política de privacidade se aplica ao Site e a todos os produtos e serviços oferecidos pelo Sambawake.",
+      "firp2": "<p>Nós do Sambawake, sabemos que você se preocupa com o uso e o compartilhamento de suas informações pessoais, e levamos sua privacidade a sério. Leia as seguintes informações para saber mais sobre nossa Política de Privacidade. </p><p>Nós do Sambawake, sabemos que você se preocupa com o uso e o compartilhamento de suas informações pessoais, e levamos sua privacidade a sério. Leia as seguintes informações para saber mais sobre nossa Política de Privacidade. </p><p>Ao usar ou acessar os serviços de qualquer maneira, você reconhece que aceita as práticas e políticas descritas nesta Política de Privacidade e concorda com a coleta, o uso e o compartilhamento de suas informações das seguintes maneiras. </p><p>Lembre-se de que o uso dos serviços do Sambawake está sempre sujeito aos Termos e Condições, que incluem esta Política de Privacidade. </p><p>Quaisquer termos não definidos nesta Política têm definições descritas nos Termos e Condições. A política de privacidade é regida pela Portaria de Dados Pessoais (Privacidade).</p>",
+      "secTitle": "Informações de identificação pessoal",
+      "secp1": "<p>Podemos coletar informações de identificação pessoal dos usuários de várias maneiras, incluindo, entre outras, quando os Usuários visitam nosso site, se registram no site, fazem um pedido, respondem a uma pesquisa, preenchem um formulário e estão em conexão com outros atividades, solicitam serviços, ou utilizam recursos que disponibilizamos em nosso Site. </p><p>Os usuários podem ser solicitados a informar, conforme apropriado, seu nome, endereço de e-mail, endereço de entrega e informações do cartão de crédito.</p><p>Os usuários também podem, no entanto, visitar nosso Site anonimamente. </p><p>Somente coletaremos informações de identificação pessoal dos Usuários se eles enviarem voluntariamente essas informações. </p><p>Os usuários têm o direito de se recusar a fornecer informações de identificação pessoal; no entanto, isso pode impedir o acesso a determinadas atividades relacionadas ao Site.</p>",
+      "thirTitle": "Informações de identificação não pessoal",
+      "thirp1": "<p>Podemos coletar informações de identificação não pessoais sobre qualquer Usuário que interaja com o nosso Site. </p><p>Informações de identificação não pessoal podem incluir o nome do navegador, o tipo de computador que está sendo usado e informações técnicas sobre os meios de conexão dos Usuários ao nosso Site, como o sistema operacional, os provedores de serviços de Internet utilizados e outras informações semelhantes.</p>",
+      "fourTitle": "Cookies do Navegador da Web",
+      "fourp1": "<p>Nosso site pode usar \"cookies\" para aprimorar a experiência do usuário. </p><p>O navegador da web do usuário salva os cookies no disco rígido para fins de manutenção de registros e para criar um histórico do site. As configurações do navegador podem ser usadas para impedir ou para alertá-lo quando os cookies estiverem sendo enviados. Se a função de cookies do seu navegador estiver desativada, algumas partes do Site podem não funcionar corretamente.</p>",
+      "fiveTitle": "Como usamos as informações coletadas",
+      "fivep1": "Sambawake coleta e usa as informações pessoais dos Usuários para os seguintes fins:",
+      "point1": "<strong>(1) Personalizar a experiência do usuário</strong><p>Podemos usar as informações agregadas para entender como nossos Usuários ou grupo usam os serviços e recursos fornecidos em nosso Site.</p>",
+      "point2": "<strong>(2) Melhorar o nosso site</strong><p>Nós nos esforçamos continuamente para melhorar as ofertas do nosso site com base nas informações e nos comentários que recebemos dos usuários.</p>",
+      "point3": "<strong>(3) Melhorar o serviço ao cliente</strong><p>Suas informações nos ajudam a responder com mais eficácia às suas solicitações de serviço ao cliente e necessidades de suporte.</p>",
+      "point4": "<strong>(4) Processar transações</strong><p>Podemos usar informações pessoais ou financeiras que os usuários fornecem ao fazer um pedido apenas para prestar serviços sobre esse pedido. Não compartilhamos essas informações com terceiros, exceto na medida necessária para fornecer o serviço de forma correta. </p>",
+      "point5": "<strong>(5) Administrar um conteúdo, promoção, sorteio, pesquisa ou outros recursos do site</strong><p>Enviaremos aos usuários as informações que eles concordarem em receber sobre tópicos que possam ser do seu interesse.</p>",
+      "point6": "<strong>(6) Envio de e-mails periódicos</strong><p>O endereço de e-mail fornecido pelos usuários para o processamento de pedidos será usado estritamente para o envio de informações e atualizações referentes ao pedido em questão. Também pode ser usado para responder a inquéritos, outras solicitações ou perguntas. </p><p>Se um Usuário decidir optar por entrar em nossa lista de newsletter, ele receberá e-mails que podem incluir notícias da empresa, atualizações, informações relacionadas a produtos ou serviços, etc. Instruções na parte inferior de cada e-mail ou o Usuário pode entrar em contato conosco através do nosso Site.</p>",
+      "sixTitle": "Como protegemos suas informações",
+      "sixp1": "Adotamos práticas apropriadas de coleta, armazenamento e processamento de dados e medidas de segurança para proteger contra acesso não autorizado, alteração, divulgação ou destruição de suas informações pessoais, nome de usuário, senha, informações de transações e dados armazenados em nosso Site.",
+      "sevenTitle": "Compartilhando suas informações pessoais",
+      "sevenp1": "<p>Não vendemos, trocamos ou alugamos informações de identificação pessoal de Usuários para terceiros. Podemos compartilhar com nossos parceiros de negócios, afiliadas confiáveis ​​e anunciantes informações demográficas coletadas genéricamente e não vinculadas a nenhuma informação de identificação pessoal de visitantes e usuários para os fins mencionados acima. </p><p>Podemos usar prestadores de serviços de terceiros para nos ajudar a operar nossos negócios e site ou administrar atividades em nosso nome, como enviar boletins ou pesquisas. Podemos compartilhar suas informações com esses terceiros para esses fins limitados, desde que você tenha dado permissão.</p>",
+      "eightTitle": "Sites de terceiros",
+      "eightp1": "<p>Os usuários podem encontrar publicidade ou outro conteúdo em nosso Site que vincule aos sites e serviços de nossos parceiros, fornecedores, anunciantes, patrocinadores, licenciadores e outros terceiros. </p><p>Não controlamos o conteúdo ou os links que aparecem nesses sites e não somos responsáveis ​​pelas práticas empregadas pelos sites vinculados ao nosso Site. </p><p>Além disso, esses sites ou serviços, incluindo seu conteúdo e links, podem sofrer alterações constantes. Esses sites e serviços podem ter suas próprias políticas de privacidade e políticas de atendimento ao cliente. A navegação e a interação em qualquer outro site, incluindo sites com um link para o nosso Site, estão sujeitas aos termos de uso e políticas do site.</p>",
+      "nineTitle": "Alterações a esta Política de Privacidade",
+      "ninep1": "<p>Sambawake tem o poder de atualizar sua política de privacidade a qualquer momento. Quaisquer revisões serão atualizadas na parte inferior desta página. </p><p>Para se manter informado sobre como estamos ajudando a proteger as informações pessoais que coletamos, incentivamos os Usuários a verificar frequentemente esta página quanto a alterações. </p><p>Você reconhece e concorda que é sua responsabilidade revisar esta política de privacidade periodicamente e observar quaisquer revisões.</p>",
+      "tenTitle": "Sua aceitação destes termos",
+      "tenp1": "<p>Ao usar este site, você indica sua aceitação desta política de privacidade. Se você não concorda com nossos termos, não use nosso Site. </p><p>Seu uso continuado do Site após as revisões adicionadas a esta política será considerado como uma aceitação dessas alterações.</p>"
+    },
+    "termsCond": {
+      "title": "Termos e Condições de Uso",
+      "p1": "Este aplicativo/site é operado pela Sambado Information Technology Co., Ltd. Negociando como Sambawake.",
+      "p2": "Ao usar este aplicativo/site e/ou fazer um pedido, você concorda em cumprir os termos e condições estabelecidos abaixo. Leia também nossa Política de Privacidade sobre informações pessoais fornecidas por você.",
+      "p3": "Sem aviso prévio para alteração dos termos, a alteração será aplicada aos pedidos posteriores. Após a confirmação de seus pedidos, não poderemos fazer alterações.",
+      "firTitle": "Direito Autoral",
+      "firp1": "<p>Todo o conteúdo incluído neste aplicativo/site, incluindo, sem limitação, texto, gráficos ou código possui direitos autorais como um trabalho coletivo sob as leis de direitos autorais e é propriedade do Sambawake. O trabalho coletivo inclui obras licenciadas para Sambawake.</p><p>É concedida permissão para copiar e imprimir eletronicamente partes impressas deste aplicativo/site com o único objetivo de fazer um pedido com o Sambawake ou comprar produtos do Sambawake.</p><p>Você pode exibir e, sujeito a quaisquer restrições ou limitações expressamente declaradas relacionadas a material específico, baixar ou imprimir partes do material das diferentes áreas do aplicativo/site apenas para seu uso não comercial, ou fazer um pedido com o Sambawake ou para comprar produtos do Sambawake.</p><p>Qualquer outro uso, incluindo, entre outros, a reprodução, distribuição e transmissão exibida do conteúdo deste aplicativo/site é estritamente proibido, a menos que autorizado pelo Sambawake. Você concorda ainda em não alterar ou excluir nenhum aviso de propriedade dos materiais baixados do aplicativo /local.</p>",
+      "secTitle": "Limitação de responsabilidade",
+      "secp1": "Sambawake não se responsabiliza por quaisquer danos especiais ou consequentes resultantes do uso ou da incapacidade de usar os materiais deste aplicativo/site ou do desempenho dos produtos, mesmo que Sambawake tenha sido avisado da possibilidade de tais danos . A lei aplicável pode não permitir a limitação da exclusão de responsabilidade ou danos incidentais ou consequenciais; portanto, a limitação ou exclusão acima pode não se aplicar a você.",
+      "thirTitle": "Erros tipográficos",
+      "thirp1": "Enquanto Sambawake se esforça para fornecer informações precisas sobre produtos e preços, podem ocorrer erros tipográficos ou de preços. Sambawake não pode confirmar o preço de um item até depois do pedido. No caso de itens listados a um preço incorreto ou com informações incorretas devido a um erro nos preços ou nas informações do produto, a Sambawake terá o direito, a nosso critério, de recusar ou cancelar os pedidos feitos para esse item. Caso um item tenha um preço incorreto, a Sambawake poderá, a nosso critério, entrar em contato com você para obter instruções ou cancelar seu pedido e notificá-lo sobre esse cancelamento.",
+      "fourTitle": "Terminação",
+      "fourp1": "Estes termos e condições são aplicáveis a você ao acessar o aplicativo/site e/ou concluir o processo de registro ou compra. Estes termos e condições, ou qualquer parte deles, podem ser rescindidos pela Sambawake sem aviso prévio a qualquer momento, por qualquer motivo. Qualquer rescisão deste Contrato não afetará os respectivos direitos e obrigações (incluindo, sem limitação, obrigações de pagamento) das partes que surgirem antes da data de rescisão.",
+      "fiveTitle": "Uso do aplicativo/site",
+      "fivep1": "É estritamente proibido o assédio de qualquer maneira ou forma no aplicativo/site, inclusive por e-mail, bate-papo ou uso de linguagem obscena ou abusiva. É proibida a representação de terceiros, incluindo um Sambawake ou outro funcionário, host ou representante licenciado, bem como outros membros ou visitantes do aplicativo/site. Você não pode fazer upload, distribuir ou publicar no aplicativo/site qualquer conteúdo difamatório, obsceno, ameaçador, invasor de direitos de privacidade ou publicidade, abusivo, ilegal ou de outra forma censurável que possa constituir ou incentivar uma ofensa criminal, viole os direitos de qualquer parte pela qual, de outra forma, possa dar origem a responsabilidade ou violar qualquer lei. Você não pode fazer upload de conteúdo comercial no aplicativo/site ou usá-lo para solicitar que outros participem ou se tornem membros de qualquer outro serviço online comercial ou outra organização.",
+      "sixTitle": "Links",
+      "sixp1": "<p>Na tentativa de agregar maior valor a nossos visitantes, a Sambawake pode se vincular a sites operados por terceiros. No entanto, mesmo que o terceiro seja afiliado à Sambawake.</p><p>O Sambawake não tem controle sobre os sites vinculados, todos funcionam com práticas separadas de privacidade e coleta de dados, independentemente do Sambawake.</p><p>Esses sites vinculados são apenas para sua conveniência e a forma que você os acessa é de seu próprio risco. No entanto, Sambawake procura proteger a integridade do site e os links colocados nele, e solicita qualquer feedback não apenas em seu próprio site, mas também nos sites aos quais ele vincula (inclusive se um link específico não funcionar).</p>",
+      "sevenTitle": "Moedas de preços diferentes",
+      "sevenp1": "O preço dos produtos vendidos pela Sambawake é baseado em valores calculados em reais (BRL R $). Os preços exibidos em outras moedas são convertidos do Real brasileiro de acordo com as taxas de conversão mais atualizadas. Devido à flutuação dos valores da moeda, os preços exibidos em moedas que não sejam BRL no aplicativo/site, exceto na página individual do produto, podem não ser os mais atuais e precisos. As áreas do aplicativo/site onde as denominações de moeda que não sejam BRL podem ser imprecisas incluem, entre outras, banners promocionais, faixas etárias da promoção e informações nas páginas de categorias de produtos. O preço exibido em uma página de produto individual, independentemente da denominação da moeda, é o preço atual que você deve pagar a Sambawake, excluindo o frete.",
+      "point1": "1. TERMOS E CONDIÇÕES A GOVERNAR - Estes termos e condições representam o acordo final e completo das partes e nenhum termo ou condição que modifique ou altere as disposições aqui declaradas será vinculativo com a Empresa, a menos que feito por escrito, assinado e aprovado por um oficial ou outra pessoa autorizada da Nossa Empresa. Nenhuma modificação de qualquer um desses termos será modificada pelo envio de mercadorias da Empresa após o recebimento do pedido de compra, solicitação de envio ou formulários semelhantes que contenham termos e condições impressos adicionais ou em conflito com os termos aqui contidos. Se qualquer termo, cláusula ou disposição for declarada inválida por um tribunal de jurisdição competente, essa declaração ou posse não afetará a validade de qualquer outro termo, cláusula ou disposição aqui contida.",
+      "point2": "2. ACEITAÇÃO DE PEDIDOS - Todos os pedidos estão sujeitos a verificação de preço por escrito pelo pessoal autorizado da Nossa Empresa, a menos que designado por escrito por um período de tempo especificado. O envio de mercadorias sem verificação de preço por escrito não constitui aceitação do preço contido no pedido.",
+      "point3": "3. SUBSTITUIÇÃO - Nossa empresa reserva-se o direito, sem notificação prévia, de substituir um produto alternativo do mesmo tipo, qualidade e função. Se o Comprador não aceitar um substituto, o Comprador deverá declarar especificamente que nenhuma substituição é permitida quando o comprador solicitar uma cotação, se esse pedido for feito, ou, se nenhum pedido for feito, ao fazer um pedido com o Nossa empresa.",
+      "point4": "4. PREÇO - Os preços cotados, incluindo quaisquer custos de transporte, são válidos por 10 dias, a menos que sejam designados como firmes por um período pacífico, de acordo com uma cotação por escrito ou aceitação por escrito de vendas emitida ou verificada por um executivo ou outro pessoal autorizado da Nossa Empresa. Um preço designado como firme por um período específico pode ser revogado por Nossa Empresa se houver vocação por escrito e for enviado ao Comprador antes do momento em que uma aceitação por escrito do preço for recebida por Nossa Empresa. A empresa se reserva o direito de cancelar pedidos no caso de preços de venda inferiores aos preços cotados serem estabelecidos por regulamentos governamentais.",
+      "point5": "5. TRANSPORTE - A menos que seja especificado de outra forma, Nossa Empresa usará seu julgamento na determinação de transportadora e rota. Em ambos os casos, nossa empresa não se responsabiliza por atrasos ou taxas excessivas de transporte resultantes de sua seleção.",
+      "point6": "6. EMBALAGEM - A menos que seja especificado de outra forma, nossa empresa cumprirá apenas os padrões mínimos de embalagem para o método de transporte selecionado. O custo de toda embalagem especial, carregamento ou suporte solicitado pelo Comprador será pago pelo Comprador. Todos os custos de embalagem e remessa dos equipamentos especiais do Comprador serão pagos pelo Comprador.",
+      "point7": "7. CONDIÇÕES DE PAGAMENTO - O desconto se aplica apenas ao valor faturado do material (não a impostos ou taxas de frete). Nossa Empresa se reserva o direito de exigir pagamento antecipado ou garantia satisfatória para as mercadorias, se a condição financeira do Comprador assim o determinar. Se o Comprador deixar de efetuar o pagamento de acordo com os termos deste contrato ou de qualquer acordo colateral, ou deixar de cumprir quaisquer disposições deste Contrato, nossa Empresa poderá, a seu critério (e além de outros recursos), cancelar qualquer parte não enviada deste pedido. O comprador deve permanecer responsável por todas as contas não pagas.",
+      "point8": "8. TÍTULO E RISCO DE PERDA - A entrega ao transportador constituirá entrega ao Comprador e, posteriormente, o risco de perda ou dano passará para o Comprador. Qualquer reclamação do comprador relativa a danos durante o transporte ou entrega deve ser feita diretamente à transportadora. Quaisquer reclamações do Comprador contra Nossa Empresa por falta ou dano ocorrido antes de tal entrega à transportadora devem ser feitas dentro de cinco (5) dias após o recebimento das mercadorias e acompanhadas pela fatura de transporte original assinada pela transportadora, observando que a transportadora recebeu as mercadorias de Nossa Empresa na condição reivindicada. Não obstante a passagem permanente do risco de perda para o Comprador, a titularidade e o direito de posse dos bens aqui vendidos permanecerão com a Empresa até que todos os pagamentos aqui mencionados, incluindo pagamentos dissimulados evidenciados por notas ou outras formas, juros, encargos de transporte e honorários advocatícios, deverão ter sido feitos em dinheiro, e o Comprador concorda em fazer todos os atos necessários para aperfeiçoar e manter tal direito e título em Nossa Empresa.",
+      "point9": "9. FORÇA MAIOR - Nossa Empresa não se responsabiliza pelo não cumprimento de suas obrigações resultantes direta ou indiretamente ou contribuído por atos de Força Maior; atos do Comprador, autoridade civil ou militar, incluindo controle de salários e preços; incêndios; guerra; tumulto; atrasos no transporte; falta ou incapacidade de matérias-primas cerebrais (incluindo fontes de energia), componentes, mão-de-obra, combustível ou suprimentos; ou outras circunstâncias além do controle razoável de nossa empresa, seja semelhante ou diferente do acima exposto. Se certas quantidades forem afetadas e outras não, as quantidades afetadas serão eliminadas sem responsabilidade, mas o contrato permanecerá inalterado. Nossa Empresa pode, durante qualquer período de escassez devido a qualquer uma das causas mencionadas, alocar seu fornecimento de tais matérias-primas entre seus vários usuários, de qualquer maneira que julgar justa e razoável. Em nenhum caso, nossa Empresa será responsável por danos especiais ou consequentes por qualquer atraso por qualquer causa.",
+      "point10": "10. TAXAS RAZOÁVEIS DO ADVOGADO - No caso de uma ação ou outro processo ser instaurado para a recuperação do preço da compra, ou qualquer saldo não pago, ou a violação pelo Comprador de qualquer termo aqui contido, o Comprador pagará à Nossa Empresa, além a quaisquer danos comprovados por lei, honorários advocatícios razoáveis e custos de cobrança.",
+      "point11": " 11. RESPONSABILIDADE - Nossa Empresa não será responsável, obrigada ou responsabilizada por qualquer dano ou dano resultante de uma aplicação ou uso de seus produtos, singularmente ou em combinação com outros produtos, decorrentes da aceitação deste pedido. Nossa Empresa não se responsabiliza por erros de peso ou quantidade entregues, a menos que a reclamação seja feita pelo Comprador dentro de cinco (5) dias após o recebimento da remessa e acompanhada pela fatura de transporte original assinada pela transportadora, observando que a transportadora recebeu as mercadorias de Nossa Empresa na condição reivindicada . Se tal reclamação oportuna for feita pelo Comprador e a reclamação for considerada válida por Nossa Empresa, nossa Empresa poderá cumprir sua responsabilidade enviando a quantidade necessária para corrigir a deficiência ou, à opção de Nossa Empresa, creditando ao Comprador o preço da fatura de a deficiência.",
+      "point12": "12. GARANTIA - Todos os produtos vendidos em nossa plataforma são garantidos ao Comprador sem defeitos de material e mão de obra, e fabricados de acordo com os padrões do setor. Portanto, a garantia válida não é atribuível e substitui e exclui todas as outras garantias não expressamente estabelecidas neste documento, sejam expressas ou implícitas pela operação da lei ou por outros meios, incluindo, mas não se limitando a, garantias implícitas de capacidade ou adequação do comerciante. Nenhum agente, funcionário ou representante de nossa empresa tem autoridade para vincular nossa empresa a qualquer representação, afirmação ou garantia relativa aos produtos e qualquer representação, afirmação ou garantia não deve ser considerada como parte da base deste documento. acordo e deve ser inexequível. Qualquer defeito reivindicado no material ou na expedição do trabalhador será considerado renunciado pelo Comprador, a menos que submetido à Nossa Empresa por escrito dentro de cinco (5) dias a partir da data em que as mercadorias forem recebidas pelo Comprador. Nossa Empresa não se responsabiliza pela garantia acima, se qualquer perda ou dano for causado por aplicação ou uso inadequado dos produtos. Nossa Empresa se exime de toda a responsabilidade com relação ao design das mercadorias e não oferece garantia com relação a esse design. Esta garantia substitui e exclui todas as outras garantias, expressas, implícitas ou estatutárias, incluindo garantias implícitas de capacidade ou adequação do comerciante.",
+      "point13": "13. SOLUÇÕES E LIMITAÇÃO DE RESPONSABILIDADE - Nossa Empresa não se responsabiliza por perdas acidentais ou consequentes, danos ou despesas decorrentes direta ou indiretamente da venda, manuseio ou uso dos produtos, ou por qualquer outra causa a eles relacionada. A responsabilidade da nossa Empresa, em qualquer caso, inclusive por reclamações de violação da garantia ou negligência, é exclusivamente limitada. Por opção da Nossa Empresa, à substituição de mercadorias que não cumpram este contrato, ao reembolso ou ao crédito do Comprador com um valor igual a o preço de compra de tais mercadorias, ou reparando ou providenciando o reparo das mercadorias. Se a nossa empresa solicitar a devolução das mercadorias, as mercadorias serão devolvidas à nossa empresa de acordo com as instruções passadas por nós. Os recursos contidos neste parágrafo constituem o único recurso do Comprador contra a Nossa Empresa por violação de qualquer uma das obrigações da Companhia, seja de garantia ou não. Desde que nossa empresa faça um esforço de boa fé para corrigir qualquer violação, os remédios aqui previstos serão considerados satisfeitos.",
+      "point14": "14. SELEÇÃO - O comprador declara que os produtos vendidos aqui são adequados para seu uso real ou pretendido e que o comprador não confiava na habilidade ou julgamento de nossa empresa na seleção de bens ou materiais adequados ou no design de bens e materiais adequados. O comprador declara que o uso e a instalação das mercadorias devem ser feitos em conformidade com todos os requisitos governamentais aplicáveis. O Comprador defenderá, indenizará e isentará Nossa Empresa, seus sucessores, cessionários e subsidiárias de e contra todos os custos (incluindo advogados), danos e responsabilidades resultantes de alegações reais ou alegadas, reivindicadas ou quaisquer multas propostas ou avaliadas por nossa Empresa por qualquer suposta violação de qualquer lei, regra, regulamento ou norma, por motivo ou em conexão com qualquer uso dos bens entregues aqui sob."
+    },
+    "returnPolicy": {
+      "title": "Política de Devolução",
+      "p1": "<p>Queremos que você esteja completamente satisfeito com sua compra no Sambawake e em nosso aplicativo.</p><p>Estamos empenhados em fornecer aos clientes a experiência de compra mais agradável possível. Estamos sempre disponíveis e felizes em ajudar com qualquer dúvida.</p><p>Se você precisar solicitar um reembolso, entre em contato com nossa equipe no prazo de 10 dias após a entrega do produto ou na data de entrega mais recente.</p>",
+      "firTitle": "Como a política de devolução funciona?",
+      "firp1": "Para iniciar uma devolução, acesse a página de detalhes do pedido, clique em \"SOLICITAR REEMBOLSO\" quando o status do pedido for \"Recebido\" e preencha todas as informações necessárias. Processaremos seu pedido de reembolso o mais rápido possível, mediante sua solicitação.",
+      "firpoint1": "• Os clientes podem solicitar o reembolso de um pedido no prazo de 10 corridos dias após a entrega do produto ou na data estimada de entrega mais recente.",
+      "firpoint2": "• Nossa equipe se esforça para responder a todas as solicitações dentro de 24 horas ou menos. Estamos sempre disponíveis para ajudar!",
+      "firpoint3": "• Depois que um pedido é feito, você pode cancelar qualquer item do seu pedido na seção “Histórico do Pedido” antes dele ser enviado.",
+      "firpoint4": "• Depois que um item é enviado, ele não pode mais ser cancelado. Pedimos desculpas por qualquer inconveniente.",
+      "secTitle": "Seu pedido de reembolso pode ser negado se:",
+      "secpoint1": "• Fazem mais de 10 dias que os itens solicitados por você foram entregues.",
+      "secpoint2": "• Os itens foram devolvidos sem ter recebido o endereço do vendedor de nossa equipe.",
+      "secpoint3": "• Você não pôde fornecer um número de rastreamento válido ou as informações relacionadas necessárias.",
+      "thirTitle": "Como receberei meu reembolso?",
+      "thirpoint1": "• Os reembolsos são processados de volta ao método de pagamento original usado para efetuar o pedido.",
+      "thirpoint2": "• Normalmente, você pode esperar que seu provedor de pagamento credite seu reembolso em 14 dias úteis. Se estiver com problemas para localizar seu reembolso, recomendamos entrar em contato com seu provedor de pagamentos para obter mais assistência.",
+      "thirpoint3": "• Se você usou OXXO ou Boleto, a Ebanx emitirá seu reembolso com base no seu método de pagamento."
+    },
+    "delivery": {
+      "title": "ENVIO E ENTREGA",
+      "firTitle": "Quanto tempo leva para receber meu pedido?",
+      "firp1": "<p>O tempo estimado de entrega é composto por:</p><p>1. Tempo de preparação: 1-3 dias sem exceção.</p><p>2. Tempo de entrega: 5-14 dias úteis, sem exceção.</p>",
+      "secTitle": "Como posso rastrear as informações de envio?",
+      "secp1": "<p>Verifique-o na sua conta seguindo as etapas abaixo:</p><p>Faça login e clique em Minha conta > Meus pedidos.</p>",
+      "thirTitle": "Já se passaram 3 dias. Por que as informações de envio ainda não foram atualizadas?",
+      "thirp1": "<p>Caso não haja atualizações dentro de três dias, aguarde pacientemente, pois a transportadora precisa de tempo para disponibilizar as atualizações. Caso contrário, entre em contato com o serviço ao cliente.</p><p>Nota: Consulte as informações de envio em \"Minha conta\".</p>",
+      "fourTitle": "Preciso pagar o imposto personalizado?",
+      "fourp1": "Não, Sambawake pagará o imposto se forem necessários procedimentos de desembaraço aduaneiro, mas pode haver atrasos e o prazo estimado de entrega se estenderá.",
+      "fiveTitle": "Qual é a taxa de envio e como posso obter frete grátis?",
+      "fivep1": "A taxa de envio depende completamente do valor do pedido. Frete grátis se o valor da sua mercadoria for de até R $ 200 ou o valor da sua mercadoria for de até 99.",
+      "sixTitle": "A transportadora solicita meu CPF ou RG?",
+      "sixp1": "Algumas empresas de transporte podem solicitar seu CPF ou RG como prova para entregar seu pedido, por favor, tenha-os em mãos na hora de receber o seu pedido."
+    }
+  },
+  "footer": {
+    "title1": "Produtos de Alta Qualidade",
+    "title2": "Preços Acessíveis",
+    "title3": "Frete Expresso",
+    "title4": "Pós-Venda Amigável",
+    "company": "Informações da Empresa",
+    "customerService": "Dúvidas",
+    "shippingInformation": "ENVIO E ENTREGA",
+    "myFavorites": "Meus Favoritos",
+    "returnPolicy": "Política de Devolução",
+    "faqSupport": "FAQ & Suporte",
+    "payMethod": "Formas de Pagamento",
+    "stayConnected": "Siga-nos"
+  }
+}

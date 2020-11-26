@@ -1,0 +1,217 @@
+.shop-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: auto 34px;
+  background-image: url('./assets/sprites.png');
+  vertical-align: text-top;
+  &.mini {
+    width: 16px;
+    height: 16px;
+    background-size: auto 30px;
+  }
+  &.small {
+    background-size: auto 60px;
+  }
+  &.medium {
+    background-size: auto 70px;
+  }
+  &.large {
+    background-size: auto 90px;
+  }
+  &.product-active {
+    background-size: auto 84px;
+  }
+}
+.shop-icon-contact {
+  background-position: -1344px 0;
+  background-size: auto 40px !important;
+}
+// mini
+.shop-icon-flash {
+  background-position: -151px 0;
+}
+.shop-icon-group {
+  background-position: -187px 0;
+}
+// small
+.shop-icon-favorite {
+  width: 18px;
+  height: 17px;
+  background-position: -560px 0;
+}
+.shop-icon-favorite-hover {
+  width: 18px;
+  height: 17px;
+  background-position: -605px 0;
+}
+.shop-icon-cart {
+  width: 18px;
+  height: 17px;
+  background-position: -688px 0;
+}
+.shop-icon-cart-hover {
+  width: 18px;
+  height: 17px;
+  background-position: -734px 0;
+}
+.shop-icon-user {
+  width: 16px;
+  height: 17px;
+  background-position: -628px 0;
+}
+.shop-icon-user-hover {
+  width: 16px;
+  height: 17px;
+  background-position: -667px 0;
+}
+// medium
+.shop-icon-menu {
+  width: 20px;
+  height: 14px;
+  vertical-align: middle;
+  background-position: -36.5px 0;
+}
+.shop-icon-menu:hover {
+  width: 20px;
+  height: 14px;
+  vertical-align: middle;
+  background-position: -10px 0;
+}
+.shop-icon-apple-m {
+  width: 99px;
+  height: 32px;
+  background-position: -1765px 0;
+}
+.shop-icon-android-m {
+  width: 99px;
+  height: 32px;
+  background-position: -1869px 0;
+}
+.shop-flash-bg {
+  height: 48px;
+  width: 588px;
+  background-position: -2952px 0;
+}
+.shop-group-bg {
+  height: 48px;
+  width: 588px;
+  background-position: -3546px 0;
+}
+.shop-icon-camera {
+  width: 25px;
+  height: 25px;
+  background-position: -3927px 0;
+}
+.shop-icon-douyin {
+  width: 25px;
+  height: 25px;
+  background-position: -3898px 0;
+}
+.shop-icon-facebook2 {
+  width: 25px;
+  height: 25px;
+  background-position: -4015px 0;
+}
+// large
+.shop-icon-facebook {
+  width: 34px;
+  height: 34px;
+  background-position: -2886px 0;
+}
+.shop-icon-google {
+  width: 34px;
+  height: 34px;
+  background-position: -2929px 0;
+}
+.shop-icon-apple {
+  width: 125px;
+  height: 40px;
+  background-position: -2270px 0;
+}
+.shop-icon-android {
+  width: 125px;
+  height: 40px;
+  background-position: -2405px 0;
+}
+.shop-icon-house {
+  width: 36px;
+  height: 34px;
+  background-position: -1515px 0;
+}
+.shop-icon-dollar {
+  width: 44px;
+  height: 34px;
+  background-position: -1560px 0;
+}
+.shop-icon-car {
+  width: 42px;
+  height: 31px;
+  background-position: -1610px 0;
+}
+.shop-icon-msg {
+  width: 33px;
+  height: 33px;
+  background-position: -1658px 0;
+}
+.shop-icon-card1 {
+  width: 265px;
+  height: 20px;
+  background-position: -4507px 0;
+}
+.shop-icon-card2 {
+  width: 149px;
+  height: 31px;
+  background-position: -4780px 0;
+}
+.shop-icon-card3 {
+  width: 70px;
+  height: 22px;
+  background-position: -4936px 0;
+}
+.shop-icon-package {
+  width: 41px;
+  height: 35px;
+  background-position: -1325px 0;
+}
+.shop-icon-package-active {
+  width: 41px;
+  height: 35px;
+  background-position: -1136px 0;
+}
+.shop-icon-transport {
+  width: 42px;
+  height: 35px;
+  background-position: -1373px 0;
+}
+.shop-icon-transport-active {
+  width: 42px;
+  height: 35px;
+  background-position: -1184px 0px;
+}
+.shop-icon-deliver {
+  width: 39px;
+  height: 35px;
+  background-position: -1423px 0;
+}
+.shop-icon-deliver-active {
+  width: 39px;
+  height: 35px;
+  background-position: -1234px 0px;
+}
+.shop-icon-sign {
+  width: 36px;
+  height: 35px;
+  background-position: -1471px 0;
+}
+.shop-icon-sign-active {
+  width: 36px;
+  height: 35px;
+  background-position: -1281px 0px;
+}
+.shop-icon-ebank {
+  width: 70px;
+  height: 14px;
+  background-position: -5086px 0;
+}

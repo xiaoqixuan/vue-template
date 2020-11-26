@@ -1,0 +1,81 @@
+
+//主色调-绿色
+$color-main: #129F84;
+$color-hover: #e7f5f3;
+$color-main-bg: #F2F2F4;
+$color-white: white;
+$color-safe: #045929;
+$color-danger: #EB0600;
+$color-text: #606266;
+$color-text-bg: #ccc;
+$color-text-hover: #129F84;;
+$border-color-base: #f2f2f2;
+$font-color-disabled-base: #bbb;
+$border-color-hover: rgba(0,0,0,.35);
+$body-bg-color:#fff;
+$table-hover-bg: #f5f7fa;
+$radius: 4px;
+
+// height&width
+// $content-width: 75%;
+// $content-width-small: 80%;
+$content-width: 1190px;
+$content-width-small: 1190px;
+$content-scale: 1190/900;
+
+$header-height: 83px;
+$header-height-small: 68px;
+$footer-height: 390px;
+$footer-height-login: 164px;
+$footer-height-login-small: 120px;
+$nav-height: 51px;
+
+$content-height: calc(100vh - #{$header-height} - #{$nav-height} - #{$footer-height});
+$content-flex-height: calc(100vh - #{$header-height} - #{$nav-height} - #{$footer-height} - 1px);
+$content-height-login: calc(100vh - #{$header-height} - #{$footer-height-login});
+$content-flex-height-login: calc(100vh - #{$header-height} - #{$footer-height-login} - 1px);
+$content-flex-height-login-small: calc(100vh - #{$header-height-small} - #{$footer-height-login-small} - 1px);
+
+// product
+$pro-main-color: #e94363;
+$flash-icon-bg:#F19B5E;
+$group-icon-bg: #F4B932;
+$brand-icon-bg:#397DCB;
+$like-icon-bg:#E1526E;
+$bottom-btn-color1: #E93F3E;
+$bottom-btn-color2: #F8C433;
+$top-time-bg: #353233;
+$main-red: #E9414E;
+
+// comments
+$star-color:rgb(247, 186, 42);
+
+// font-size
+$size-12: 12px;
+$size-13: 13px;
+$size-14: 14px;
+$size-15: 15px;
+$size-16: 16px;
+$size-18: 18px;
+$size-20: 20px;
+$size-22: 22px;
+$size-32: 32px;
+
+// color
+$color-3: #333;
+$color-6: #666;
+$color-9: #999;
+
+// 定义fontSize(暂时没用它）
+@mixin fontSize($size) {
+    @media screen and (max-width: 3000px) {
+        font-size: $size*1px;
+    }
+}
+@mixin autoWidth($width) {
+    width: ($content-width/900)*$width;
+}
+@mixin autoHeight($height) {
+    height: ($content-width/900)*$height;
+}
+

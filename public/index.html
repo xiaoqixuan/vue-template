@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 100%;height: 100%;">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- 使用CDN的CSS文件 -->
+  <% for (var i in htmlWebpackPlugin.options.cdn &&
+  htmlWebpackPlugin.options.cdn.css) { %>
+  <link
+          href="<%= htmlWebpackPlugin.options.cdn.css[i] %>"
+          rel="stylesheet"
+  />
+  <% } %>
+  <!-- 使用CDN的CSS文件 -->
+
+  <title>Sambawake</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L5Z1EE9E12"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L5Z1EE9E12');
+</script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v3.3&appId=2338720772893916&autoLogAppEvents=1"></script>
+</head>
+<body style="width: 100%;height: 100%;">
+<noscript>
+  <strong>We're sorry but blog doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+
+<!-- 使用CDN的JS文件 -->
+<% for (var i in htmlWebpackPlugin.options.cdn &&
+htmlWebpackPlugin.options.cdn.js) { %>
+<script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>"></script>
+<% } %>
+<!-- 使用CDN的JS文件 -->
+
+</body>
+</html>

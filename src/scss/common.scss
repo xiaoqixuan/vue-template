@@ -1,0 +1,228 @@
+@import "icon.scss";
+@import "reset.scss";
+
+.store-body {
+  position: relative;
+  padding-top: $header-height;
+  font-size: $size-14;
+  background-color: $body-bg-color;
+  .page-header {
+    position: fixed;
+    top: 0;
+    z-index: 15;
+    width: 100%;
+    height: $header-height;
+    background-color: $body-bg-color;
+    border-bottom: 3px solid $color-main-bg;;
+  }
+  .page-footer {
+    height: $footer-height;
+  }
+  .page-content, .nav-content {
+    width: $content-width;
+    margin: 0 auto;
+  }
+  .page-body {
+    .page-content {
+      min-height: $content-height;
+    }
+  }
+  .header-operate {
+    .is-active {
+      color: $color-main;
+    }
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .store-body {
+    font-size: $size-12 !important;
+    padding-top: $header-height-small !important;
+    .page-content, .nav-content {
+      width: $content-width-small !important;
+    }
+    .page-header {
+      height: $header-height-small !important;
+      .page-content {
+        padding: 20px 0 8px !important;
+        .router-link-active {
+          height: 40px !important;
+        }
+        .search-bar {
+          flex: 0 0 42% !important;
+          i {
+            padding: 0 10px !important;
+          }
+          .el-input {
+            width: calc(100% - 32px) !important; // 兼容IE10
+          }
+        }
+      }
+    }
+    .page-body {
+      .nav-content {
+        padding: 15px 0 !important;
+        .nav-menu-btn {
+          font-size: 16px !important;
+          .el-link--inner {
+            font-size: 16px !important;
+            .shop-icon-menu {
+              height: 14px;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .home-wrapper .home-nav {
+        right: 0 !important;
+      }
+      .page-content.login {
+        height: $content-flex-height-login-small !important;
+      }
+    }
+    .page-footer {
+      height: $footer-height-login-small !important;
+      .page-content {
+        padding: 30px 0 !important;
+      }
+    }
+    .el-input__inner {
+      height: 30px !important;
+      line-height: 30px !important;
+    }
+    .order-list-content {
+      .order-search {
+        line-height: 40px;
+      }
+    }
+  }
+}
+
+.w-150 {
+  width: 150px !important;
+}
+.mr-5 {
+  margin-right: 5px !important;
+}
+.mr-10 {
+  margin-right: 10px !important;
+}
+.mr-20 {
+  margin-right: 20px !important;
+}
+.ml-5 {
+  margin-left: 5px !important;
+}
+.ml-10 {
+  margin-left: 10px !important;
+}
+.ml-20 {
+  margin-left: 20px !important;
+}
+.ml-40 {
+  margin-left: 40px !important;
+}
+.mt-5 {
+  margin-top: 5px !important;
+}
+.mt-10 {
+  margin-top: 10px !important;
+}
+.mt-15 {
+  margin-top: 15px !important;
+}
+.mt-25 {
+  margin-top: 25px !important;
+}
+.mt-30 {
+  margin-top: 30px !important;
+}
+.mt-40 {
+  margin-top: 40px !important;
+}
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+.mh-30 {
+  margin: 30px 0;
+}
+.ph-20 {
+  padding: 20px 0;
+}
+.ph-30 {
+  padding: 30px 0;
+}
+.pv-20 {
+  padding: 20px;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+// font
+.size-20 {
+  font-size: $size-20 !important;
+}
+.color-3 {
+  color: $color-3 !important;
+}
+.color-6 {
+  color: $color-6 !important;
+}
+.color-9 {
+  color: $color-9 !important;
+}
+.gray-bg {
+  border: none !important;
+  background-color: #f5f5f5;
+}
+.el-avatar.el-avatar--square img {
+  width: 100%; // 兼容IE10
+}
+.border {
+  border: 1px solid #ccc;
+  border-radius: $radius;
+}
+.actual-payment {
+  color: red;
+}
+
+.valid-control {
+  width: 100%;
+  .el-input {
+    border-radius: 4px;
+  }
+  span {
+    display: block;
+  }
+  &.invalid {
+    .el-input, span {
+      color: $color-danger;
+    }
+    .el-input {
+      border: 1px $color-danger solid;
+    }
+  }
+  &.valid {
+    .el-input, span {
+      color: $color-safe;
+    }
+    .el-input {
+      border: 1px $color-safe solid;
+    }
+  }
+}

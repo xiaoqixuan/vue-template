@@ -1,0 +1,14 @@
+dist/**
+release/**
+.vscode/**
+.idea/**
+.history/**
+node_modules/**
+build/**
+public/**
+utils/**
+router/**
+api/**
+dto/**
+mixins/**
+babel.config.js

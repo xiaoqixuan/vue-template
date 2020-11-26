@@ -1,0 +1,446 @@
+{
+  "locales": {
+    "language": "选择语言",
+    "en-US": "English",
+    "zh-CN": "中文",
+    "pt-BR": "Português"
+  },
+  "common": {
+    "back": "返回",
+    "noData": "暂无数据 ~",
+    "nav": {
+      "cart": "购物车",
+      "confirmOrder": "确认订单",
+      "payOrder": "支付订单"
+    }
+  },
+  "header": {
+    "login": "登录",
+    "logout": "登出",
+    "cart": "购物车",
+    "favorite": {
+      "title": "收藏",
+      "favorites": "商品",
+      "favoriteStore": "店铺"
+    },
+    "search": {
+      "recent": "热门搜索",
+      "popular": "历史搜索"
+    }
+  },
+  "login": {
+    "signin": "登录",
+    "signByCode": "验证码登录",
+    "signByPsd": "密码登录",
+    "placeholder": {
+      "email": "邮箱",
+      "psd": "密码",
+      "verify": "验证码"
+    },
+    "getVerifyCode": "获取验证码",
+    "savePsd": "记住密码",
+    "forgetPsd": "忘记密码？",
+    "signWith": "社交账号登录",
+    "submit": "登录"
+  },
+  "userMenu": {
+    "modify": "编辑",
+    "system": "系统信息",
+    "mymsg": "我的消息",
+    "favorite": "我的收藏夹",
+    "viewed": "最近浏览过"
+  },
+  "userInfo": {
+    "link": "个人信息",
+    "basic": {
+      "title": "基本信息",
+      "profilePhoto": "头像照片",
+      "uploadAvatar": "上传头像",
+      "nickName": "昵称",
+      "name": "姓名",
+      "birthday": "生日",
+      "gender": "性别",
+      "selectDate": "选择日期",
+      "male": "男",
+      "female": "女",
+      "private": "保密"
+    },
+    "delivery": {
+      "title": "收货地址",
+      "consignee": "收货人",
+      "firstName": "名",
+      "lastName": "姓",
+      "phone": "联系方式",
+      "location": "地区",
+      "address": "详细地址",
+      "email": "邮箱",
+      "default": "默认地址",
+      "setDefault": "设为默认地址",
+      "addNewAddress": "添加新地址"
+    },
+    "security": {
+      "title": "安全",
+      "inputPsd": "输入密码",
+      "repeatPsd": "确认密码",
+      "sendSuccess": "发送成功 ~",
+      "modifySuccess": "修改成功 ~"
+    }
+  },
+  "order": {
+    "link": "我的订单",
+    "searchPlaceholder": "产品名/订单号",
+    "orderDetail": {
+      "title": "订单详情",
+      "orderInfo": {
+        "title": "订单信息",
+        "createTime": "下单时间"
+      },
+      "discountInfo": {
+        "payType": "支付方式",
+        "productAmount": "商品总价",
+        "promotionAmount": "满减优惠",
+        "couponsAmount": "优惠券",
+        "discountAmount": "商家打折",
+        "shippingAmount": "邮费"
+      }
+    },
+    "logistics": {
+      "title": "物流详情",
+      "logisticsInfo": {
+        "title": "物流信息"
+      },
+      "orderInfo": {
+        "title": "订单信息",
+        "waybillNumber": "物流单号",
+        "logisticsCompany": "物流公司",
+        "consumerHotline": "消费者热线",
+        "sellerNickname": "卖家昵称",
+        "deliveryAddress": "发货地址",
+        "shippingAddress": "收货地址"
+      }
+    },
+    "orderTab": {
+      "all": "全部",
+      "unpaid": "待支付",
+      "toBeReceive": "待收货",
+      "finish": "已完成",
+      "cancel": "已取消"
+    },
+    "orderStatus": {
+      "unPay": "待支付",
+      "pay": "待发货",
+      "paying": "支付中",
+      "delivery": "待收货",
+      "finish": "已完成",
+      "close": "已取消",
+      "invalid": "已失效"
+    },
+    "logisticsStatus": {
+      "waitingForPackage": "待揽收",
+      "transport": "运输中",
+      "deliver": "派送中",
+      "signFor": "已签收"
+    },
+    "table": {
+      "detail": "详情",
+      "price": "单价",
+      "num": "数量",
+      "status": "状态",
+      "actuaPayment": "实际支付",
+      "totalAmount": "总价",
+      "operate": "操作",
+      "orderNo": "订单号",
+      "contactUs": "联系我们"
+    },
+    "comment": {
+      "title": "评价",
+      "mtitle": "购买的商品",
+      "submit": "提交评价",
+      "averageRating": "平均评分",
+      "rating": "评分",
+      "comment": "评论",
+      "upload": "上传图片",
+      "commentPlaceholder": "请输入内容",
+      "anonymous": "匿名评估"
+    },
+    "operate": {
+      "paying": "支付中",
+      "payNow": "立即支付",
+      "addToCart": "加入购物车",
+      "confirmReceive": "确认收货",
+      "cancelOrder": "取消订单",
+      "deleteOrder": "删除订单",
+      "addReview": "添加评价",
+      "appendReview": "追加评价",
+      "orderDetail": "订单详情",
+      "logisticsDetail": "查看物流",
+      "refund": "申请退款",
+      "return": "申请退货",
+      "afterSale": "申请售后"
+    }
+  },
+  "systemMsg": {
+    "link": "系统信息",
+    "tabTitle": "通知"
+  },
+  "mymsg": {
+    "link": "我的消息",
+    "promotions": "促销活动",
+    "community": "社区",
+    "onlineService": "在线服务"
+  },
+  "induce": {
+    "download": "下载 APP！",
+    "desc": "{feature}只能在移动应用程序中使用！",
+    "features": {
+      "favorites": "我的收藏夹"
+    }
+  },
+  "cart": {
+    "inStock": "有货",
+    "soldOut": "无货",
+    "viewMyCart": "查看我的购物车",
+    "operate": {
+      "edit": "修改属性",
+      "collect": "收藏",
+      "checkOut": "结算"
+    }
+  },
+  "confirmOrder": {
+    "deliverTo": "寄送至",
+    "placeOrder": "下单"
+  },
+  "validate": {
+    "customRequired": "该字段是必填的。",
+    "domain": "无效的格式。",
+    "ipAddress": "仅允许输入数字，特殊字符“.”。",
+    "email": "邮箱格式不正确。",
+    "fixedLength": "{_field_}长度须为{len}。",
+    "areaLength": "{_field_}长度为 {minLen} ~ {maxLen} 个字符。",
+    "repeatPsd": "两次输入密码不一致!",
+    "imgFormat": "上传图片只能是 {format} 格式!",
+    "imgSize": "上传图片大小不能超过 {size}!"
+  },
+  "error": {
+    "errorTitle": "告警",
+    "errorMessage": "<strong>请稍后再试。</strong><br><br>服务暂时不可用。<br>如果持续出现错误请联系客服。"
+  },
+  "actions": {
+    "delete": "删除",
+    "save": "保存",
+    "edit": "修改",
+    "create": "创建",
+    "add": "添加",
+    "ok": "确定",
+    "cancel": "取消",
+    "clear": "全部清除"
+  },
+  "date": {
+    "yearMonth": "{year}年{month}月",
+    "dayYearMonth": "{year}-{month}-{day}",
+    "timeDayYearMonth": "{year}-{month}-{day} {time}",
+    "year": "年",
+    "month": "月",
+    "mon": "周一",
+    "tue": "周二",
+    "wed": "周三",
+    "thu": "周四",
+    "fri": "周五",
+    "sat": "周六",
+    "sun": "周日"
+  },
+  "months": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5",
+    "6": "6",
+    "7": "7",
+    "8": "8",
+    "9": "9",
+    "10": "10",
+    "11": "11",
+    "12": "12"
+  },
+  "confirm": {
+    "title": "通知",
+    "desc": "确认删除{info}？",
+    "info": {
+      "address": "地址"
+    }
+  },
+  "product": {
+    "category": "分类",
+    "flash": "秒杀商品",
+    "group": "团购商品",
+    "topBrand": "主要品牌",
+    "mayLike": "猜你喜欢",
+    "allBrand": "所有品牌",
+    "hot": "热销商品",
+    "proLeft": "还差{remainNum}人拼团成功",
+    "priceUnit": "¥",
+    "discount": "{discount}%",
+    "discountUnit": "OFF",
+    "semInfo": "{perPayment}元/期，共{num}期，{semJuros}",
+    "semJuros": "免息",
+    "noSemJuros": "不免息",
+    "getReviews": "查看评价({commentNum}）",
+    "stock": "库存({stock})",
+    "description": "详情",
+    "parameter": "参数",
+    "reviews": "评论({commentNum})",
+    "addToCart": "加入购物车",
+    "buyNow": "立即购买",
+    "joinNow": "加入团购",
+    "quantity": "数量",
+    "allComment": "评价详情({commentNum})",
+    "star": "{star} 星",
+    "stars": "{star} 星",
+    "flashFinishTime": "秒杀结束倒计时",
+    "hours": "时",
+    "minutes": "分",
+    "seconds": "秒",
+    "viewMore": "查看更多",
+    "noMore": "没有更多了",
+    "loading": "加载中",
+    "addSucess": "添加成功",
+    "anonymity": "匿名",
+    "addCollect": "收藏商品",
+    "unCollect": "取消收藏",
+    "sort": "排序",
+    "brand": "品牌",
+    "searchPlaceholder": "请输入内容搜索",
+    "day": "天",
+    "timefinished": "结束时间",
+    "timeupcoming": "开始时间",
+    "pleaseSelectSku": "请选择商品属性",
+    "endActivity": "该产品的活动已结束"
+  },
+  "txtInfo": {
+    "aboutUs": {
+      "title": "关于我们",
+      "p1": "Sambawake was founded by Sambado Information Technology.The company has offices in Sao Paulo, Rio de Janeiro, Beijing, Shanghai, Berlin and Tokyo. The founding team members came from prominent mobile Internet companies and supply chain enterprises, who are experienced in mobile e-commerce products, operations, traffic, and have in-depth understanding of supply chains in China, Germany and Japan.",
+      "p2": "Sambawake is the Brazil's leading online shopping platform, connecting Brazilian buyers with international sellers who offer  top selling products with low prices. Sambawake hosts products in a wide range of categories including Toys, Auto, Home, Bags, Pets, and more. Sambawake provides a buyer protection plan, a secure refund policy, express delivery, and shipment tracking. Sambawake supports multiple languages, currencies and payment methods, and is committed to providing customers with a better shopping experience and striving to build a world-renowned brand.",
+      "p3": "High-quality supply chains all over the world.",
+      "p4": "Get low prices on top selling products.",
+      "p5": "Top-level e-commerce team and localization operations."
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "firTitle": "Privacy Policy Scope",
+      "firp1": "This Privacy Policy governs the manner in which Sambawake collects, uses, maintains and discloses information collected from users (each, a \"User\") of the Sambawake website (\"Site\"). This privacy policy applies to the Site and all products and services offered by Sambawake.",
+      "firp2": "We at Sambawake know you care about how your personal information is used and shared, and we take your privacy seriously. Please read the following to learn more about our Privacy Policy. By using or accessing the services in any manner, you acknowledge that you accept the practices and policies outlined in this Privacy Policy, and you hereby consent to the collection, use, and sharing of your information in the following ways. As a reminder, your use of Sambawake’s Services is at all times subject to the Terms and Conditions, which includes this Privacy Policy. Any terms not defined in this Policy have definitions outlined in the Terms and Conditions. The privacy policy is governed by the Personal Data (Privacy) Ordinance.",
+      "secTitle": "Personal Identification Information",
+      "secp1": "We may collect personal identification information from Users in a variety of ways including, but not limited to, when Users visit our site, register on the site, place an order, respond to a survey, fill out a form, and in connection with other activities, services, features or resources we make available on our Site. Users may be asked for, as appropriate, their name, email address, mailing address, and/or credit card information. Users may, however, visit our Site anonymously. We will collect personal identification information from Users only if they voluntarily submit such information. Users have the right to refuse to supply personal identification information, however, it may prevent access to certain Site related activities.",
+      "thirTitle": "Non-personal Identification Information",
+      "thirp1": "We may collect non-personal identification information about any Users who interact with our Site. Non-personal identification information may include browser name, type of computer being used, and technical information about Users' means of connection to our Site, such as the operating system, internet service providers utilized, and other similar information.",
+      "fourTitle": "Web Browser Cookies",
+      "fourp1": "Our Site may use \"cookies\" to enhance User experience. User's web browser saves cookies to hard drive for record-keeping purposes and tocreate a site history. Browser settings can be used to prevent cookies be or to alert you when cookies are being sent. If your browser’s cookie function is disabled, some parts of the Site may not function properly.",
+      "fiveTitle": "How We Use Collected Information",
+      "fivep1": "Sambawake collects and uses Users personal information for the following purposes:",
+      "point1": "<strong>(1) Personalize user experience</strong><p>We may use information in the aggregate to understand how our Users as a group use the services and resources provided on our Site.</p>",
+      "point2": "<strong>(2) Improve our Site</strong><p>We continually strive to improve our website offerings based on the information and feedback we receive from users.</p>",
+      "point3": "<strong>(3) Improve customer service</strong><p>Your information helps us to more effectively respond to your customer service requests and support needs.</p>",
+      "point4": "<strong>(4) Process transactions</strong><p>We may use personal or financial information Users provide when placing an order only to provide service to that order. We do not share this information with outside parties except to the extent necessary to provide the service.</p>",
+      "point5": "<strong>(5) Administer a content, promotion, survey or other Site features</strong><p>We will send Users information they agree to receive regarding topics likely to be of interest to them.</p>",
+      "point6": "<strong>(6) Send periodic emails</strong><p>The email address Users provide for order processing will be used strictly for sending information and updates pertaining to their order. It may also be used to respond to inquiries, other requests, or questions. If a User decides to opt into our mailing list, they will receive emails that may include company news, updates, related product or service information, etc. If at any time a User would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email or the User may contact us via our Site.</p>",
+      "sixTitle": "How We Protect Your Information",
+      "sixp1": "We adopt appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, alteration, disclosure or destruction of your personal information, username, password, transaction information and data stored on our Site.",
+      "sevenTitle": "Sharing Your Personal Information",
+      "sevenp1": "We do not sell, trade, or rent Users’ personal identification information to others. We may share with our business partners, trusted affiliates, and advertisers generic collected demographic information not linked to any personal identification information regarding visitors and users for the purposes stated above. We may use third party service providers to help us operate our business and website or administer activities on our behalf, such as sending out newsletters or surveys. We may share your information with these third parties for those limited purposes provided that you have given permission.",
+      "eightTitle": "Third Party Websites",
+      "eightp1": "Users may find advertising or other content on our Site that link to the sites and services of our partners, suppliers, advertisers, sponsors, licensors and other third parties. We do not control the content or links that appear on these sites and are not responsible for the practices employed by websites linked to or from our Site. In addition, these sites or services, including their content and links, may change constantly. These sites and services may have their own privacy policies and customer service policies. Browsing and interaction on any other website, including websites which have a link to our Site, is subject to that website's own terms and policies.",
+      "nineTitle": "Changes to This Privacy Policy",
+      "ninep1": "Sambawake has the discretion to update their privacy policy at any time. Any revisions will be updated at the bottom of this page. In order to stay informed about how we are helping to protect the personal information we collect, we encourage Users to frequently check this page for any changes. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and note any revisions.",
+      "tenTitle": "Your Acceptance of These Terms",
+      "tenp1": "By using this Site, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our Site. Your continued use of the Site following any revisions added this policy will be deemed as an acceptance of those changes."
+    },
+    "contactUs": {
+      "title": "联系我们",
+      "p1": "Olá, bem-vindo(a) ao Sambawake. Se você tiver alguma dúvida, por favor entre em contato conosco. Ficaremos muito felizes e faremos o melhor para te atender.",
+      "p2": "O nosso e-mail é : support@sambado.com . Te esperamos!"
+    },
+    "termsCond": {
+      "title": "服务条款",
+      "p1": "This App/Website is operated by Sambado Information Technology Co., Ltd. Trading as Sambawake.",
+      "p2": "By using this App/website and/or placing an order, you agree to be bound by the terms and conditions set out below.  Please also read our Privacy Policy regarding personal information provided by you.",
+      "p3": "No prior notice for amendment to the terms, the amendment will be applied to orders thereafter. Upon confirmation of your orders, we will not be able to make any changes.",
+      "firTitle": "Copyright",
+      "firp1": "<p>The entire content included in this app/site, including but not limited to text,graphics or code is copyrighted as a collective work under copyright laws, and is the property of Sambawake. The collective work includes works that are licensed to Sambawake.</p><p>Permission is granted to electronically copy and print hard copy portions of this app/site for the sole purpose of placing an order with Sambawake or purchasing Sambawake products.</p><p>You may display and, subject to any expressly stated restrictions or limitations relating to specific material, download or print portions of the material from the different areas of the app/site solely for your own non-commercial use, or to place an order with Sambawake or to purchase Sambawake products.</p><p>Any other use, including but not limited to the reproduction, distribution, displayed transmission of the content of this app/site is strictly prohibited, unless authorized by Sambawake.You further agree not to change or delete any proprietary notices from materials downloaded from the app/site.</p>",
+      "secTitle": "Limitation of liability",
+      "secp1": "Sambawake shall not be liable for any special or consequential damages that result from the use of, or the inability to use, the materials on this app/site or the performance of the products, even if Sambawake has been advised of the possibility of such damages. Applicable law may not allow the limitation of exclusion of liability or incidental or consequential damages, so the above limitation or exclusion may not apply to you.",
+      "thirTitle": "Typographical errors",
+      "thirp1": "While Sambawake strives to provide accurate product and pricing information, pricing or typographical errors may occur. Sambawake cannot confirm the price of an item until after you order. In the event that an items listed at an incorrect price or with incorrect information due to an error in pricing or product information, Sambawake shall have the right, at our sole discretion, to refuse or cancel any orders placed for that item. In the event that an item is priced incorrectly, Sambawake may, at our discretion,either contact you for instructions or cancel your order and notify you of such cancellation.",
+      "fourTitle": "Termination",
+      "fourp1": "These terms and conditions are applicable to you upon your accessing the app/site and/or completing the registration or shopping process. These terms and conditions, or any part of them, maybe terminated by Sambawake without notice at any time, for any reason. Any termination of this Agreement shall not affect the respective rights and obligations (including without limitation,payment obligations) of the parties arising before the date of termination.",
+      "fiveTitle": "Use of app/site",
+      "fivep1": "Harassment in any manner or form on the app/site, including via e-mail, chat, or by use of obscene or abusive language, is strictly forbidden. Impersonation of others, including a Sambawake or other licensed employee, host, or representative, as well as other members or visitors on the app/site is prohibited.You may not upload to, distribute, or otherwise publish through the app/site any content which is libelous, defamatory, obscene, threatening, invasive of privacy or publicity rights, abusive, illegal, or otherwise objectionable which may constitute or encourage a criminal offense, violate the rights of any part for which may otherwise give rise to liability or violate any law. You may not upload commercial content on the app/site or use the app/site to solicit others to join or become members of any other commercial online service or other organization.",
+      "sixTitle": "Links",
+      "sixp1": "<p>In an attempt to provide increased value to our visitors, Sambawake may link to sites operated by third parties. However, even if  the third party's affiliated with Sambawake, Sambawake has no control over the linked sites, all of which have separate privacy and data collection practices,independent of Sambawake.</p><p>These linked sites are only for your convenience and the reforge you access the mat your own risk. Nonetheless, Sambawake seeks to protect the integrity o fits web site and the links placed upon it and the reforge requests any feedback on not only its own site, but for sites it links to as well (including if a specific link does not work).</p>",
+      "sevenTitle": "Different pricing currencies",
+      "sevenp1": "Pricing of products sold by Sambawake is based upon figures calculated in Brazilian Real (BRL R$). Prices displayed in other currencies are converted from Brazilian Real according to the most up to date conversion rates. Due to fluctuating currency values, prices displayed in non-BRL denominations of currency on the App/Site, other than on the individual product page, may not be the most current. Areas of the App/Site where non-BRL denominations of currency might be inaccurate include, but are not limited to, promotional banners, promotion alp ages, and information on product category pages. The price displayed on an individual  product page, regardless of currency denomination, is the current price you are liable to pay to Sambawake, excluding shipping.",
+      "point1": "1. TERMS AND CONDITIONS TO GOVERN - These terms and conditions represent the final and complete agreement of the parties and no terms or conditions in anyway modifying or changing the provisions stated here in shall be binding upon Our Company unless made in writing and signed and approved by an officer or other authorized person at Our Company. No modification of any of these terms shall be modified by Our Company's shipment of goods following receipt of Buyers purchase order, shipping request or similar forms containing printed terms and conditions additional to or in conflict with the terms herein. If any term, clause or provision is declared to held invalid by a court of competent jurisdiction, such declaration or holding shall not affect the validity of any other term, clause or provision herein contained.",
+      "point2": "2. ACCEPTANCE OF ORDERS - All orders are subject to written price verification by authorized Our Company personnel unless designated in writing to be firm for a specified period of time. Shipment of goods without written price verification does not constitute acceptance of the price contained in the order.",
+      "point3": "3. SUBSTITUTION -Our Company reserves the right, without prior notification, to substitute an alternative product of like kind, quality and function. If the Buyer will not accept a substitute, the Buyer must specifically declare that no substitution is allowed when the buyer requests a quote, if such request for quote is made, or, if no request for quote was made, when placing an order with the Our Company.",
+      "point4": "4. PRICE - Prices quoted, including any transportation charges, are valid for 10 days unless designated as firm for as pacific period pursuant to a written quote or written sales acceptance issued or verified by an officer or other authorized personnel of Our Company. A price designated as firm for a specific period may be revoked by Our Company if there vocation is in writing and is mailed to the Buyer prior to the time a written acceptance of the price is received by Our Company. All prices and deliveries are F.O.B.shipping point.Our Company reserves the right to cancel orders in the event selling prices which are lower than prices quoted are established by government regulations.",
+      "point5": "5. TRANSPORTATION - Unless other wise provided, Our Company shall use it judgment in determining carrier and routing. In either case, Our Company shall not be liable for any delays or excessive transportation charges resulting from its selection.",
+      "point6": "6. PACKING - Unless other wise provided, Our Company will comply only with it is minimum packing standards for the method of transportation selected. The cost of all special packing, loading or bracing requested by Buyer will be paid for by Buyer. All cost of packing and shipment for Buyer's special equipment shall be paid for by Buyer.",
+      "point7": "7. PAYMENT TERMS - The discount applies only to the invoiced value of the material (not to taxes or freight charges).Our Company reserves the right to require advance payment or satisfactory security for the goods if the financial condition of Buyer so warrants as determined by Our Company. If Buyer fails to make payment in accordance with terms of this agreement or any collateral agreement, or fails to comply with any provisions hereof, Our Company may, at its option (and in addition to other remedies), cancel any unshipped portion of this order. Buyer is to remain liable for all unpaid accounts.",
+      "point8": "8. TITLE AND RISK OF LOSS - Delivery to carrier shall constitute delivery to Buyer, and thereafter risk of loss or damage shall pass to Buyer. Any claim of Buyer relative to damage during shipping or delivery should be made directly to the carrier. Any claims by Buyer against Our Company for shortage or damage occurring prior to such delivery to carrier must be made within five (5) days after receipt of the goods and accompanied by original transportation bill signed by carrier noting that carrier received the goods from Our Company in the condition claimed. Not with standing passage of the risk of loss to Buyer,title and right of possession to the goods sold here under shall remain with Our Company until all payments here under, including deterred payments evidenced by notes or other wise, Interest, carrying charges, and attorneys' fees, shall have been made in cash, and Buyer agrees to do all acts necessary to perfect and maintain such right and title in Our Company.",
+      "point9": "9. FORCE MAJEURE -Our Company shall not be liable for failure to perform its obligations resulting directly or indirectly from or contributed to by acts of God; acts of Buyer, civil or military authority, including wage and price controls; fires; war; riot; delays in transportation; lack of or inability too brain raw materials (including energy sources),components, labor, fuel or supplies; or other circumstances beyond Our Company's reasonable control,whether similar or dissimilar to the foregoing. If certain quantities are affected and other quantities are not, the quantities affected shall be eliminated without liability, but the agreement shall remain unaffected. Our Company may during any period of shortage due to any of said causes, allocate its supply of such raw materials among its various users there of in any manner which we deems fair and reasonable. In no event shall Our Company be liable for special or consequential damages for any delay for any cause.",
+      "point10": "10. REASONABLE ATTORNEY'S FEES - In the event suit or other proceedings shall be brought for the recovery of the purchase price, or any unpaid balance, or the breach by Buyer of any term here in contained, Buyer shall pay to Our Company, in addition to any damages proved by law, reasonable attorney's fees and costs of collection.",
+      "point11": "11. LIABILITY - Our Company shall not be responsible, obligated, or liable for any injury or damage resulting from an application or use of its products,either singularly or in combination with other products, arising out of acceptance of this order. Our Company shall have no liability for errors in weight or quantity delivered unless claim is made by Buyer within five (5) days after receipt of shipment and accompanied by original transportation bill signed by carrier noting that carrier received the goods from Our Company inthe condition claimed. If such timely claim is made by Buyer, and the claim is deemed valid by Our Company, Our Company may fulfill its responsibility by either shipping the quantity necessary to make good the deficiency, or at Our Company’s option, crediting Buyer with the invoice price of the deficiency.",
+      "point12": "12. WARRANTY - All goods sold by Our Company are warranted to Buyer to be free from defects in material and workmanship, and manufactured in accordance with industry standards. Therefore going warranty is non-assignable and in lieu of and excludes all other warranties not expressly set forth herein, whether express or implied by operation of law or other wise including but not limited to any implied warranties of merchant ability or fitness. No agent, employee, or representative of Our Company has any authority to bind Our Company to any representation, affirmation, or warranty concerning the goods and any such representation, affirmation, or warranty shall not be deemed to have become apart of the basis of this agreement and shall be unenforceable. Any claimed defect in material or work man ship shall be deemed waived by Buyer unless submitted to Our Company in writing within five (5) days from the date the goods are received by Buyer. Our Company shall not be liable under the foregoing warranty if any loss or damage is caused by improper application or use of the goods.Our Company disclaims all liability with respect to the design of the goods and makes no warranty with respect to such design. This warranty is in lieu of and excludes all other warranties, whether express, implied, or statutory,including implied warranties of merchant ability or fitness.",
+      "point13": "13. REMEDIES AND LIMITATION OF LIABILITY -Our Company shall not be liable for incidental or consequential losses, damages, or expenses arising directly or indirectly from the sale, handling or use of the goods, or from any other cause relating thereto. Our Company's liability, in any case, including for claims of breaches of warranty or negligence is exclusively limited, at Our Company's option, to the replacement of goods not complying with this agreement, the repayment of, or crediting Buyer with, an amount equal to the purchase price of such goods, or repairing or arranging for repair of the goods. If Our Company requests the return of the goods, the goods will be redelivered to Our Company in accordance with Our Company's instructions. The remedies contained in this paragraph constitute the sole recourse of Buyer against Our Company for breach of any of Our Company's obligations, whether of warranty or otherwise. As long as Our Company makes a good faith effort to rectify any breach, the remedies provided for herein shall be deemed satisfied.",
+      "point14": "14. SELECTION - Buyer represents that the goods sold here under are fit for their actual or intended use and that Buyer placed no reliance on Our Company's skill or judgment in selecting suitable goods or materials or in the design of suitable goods and materials. Buyer represents that the use and installation of the goods shall be made in compliance with all applicable government requirements. Buyer will defend, indemnify and hold harmless Our Company, its successors,assigns and subsidiaries from and against all costs (including attorneys), damages and liabilities resulting from actual or alleged claims asserted or any penalties proposed or assessed Our Company for any alleged violation of any law, rule, regulation or standard, by reason of or in connection with any use of the goods delivered here under."
+    },
+    "returnPolicy": {
+      "title": "Return Policy",
+      "p1": "We want you to be completely satisfied with your purchase on Sambawake and our app. We're committed to providing customers with the most delightful shopping experience possibly. We're always available and happy to help with any questions. If you need to request a refund, please contact our team within 10 days of delivery or the latest estimated delivery date.",
+      "firTitle": "How does the return policy work?",
+      "firp1": "To start a return, please go to the order details page, click the \"REQUEST REFUND\" when the order status is \"Received\" and fill all the information needed. We will process your refund application as soon as possible upon your request.",
+      "firpoint1": "• Customers may request a refund on an order within 10 days of delivery or the latest estimated delivery date.",
+      "firpoint2": "• Our team strives to respond to all requests within 24 hours or less. We're always available to help!",
+      "firpoint3": "• Once an order has been placed, you may cancel any item in your order in the Order History section before it is shipped.",
+      "firpoint4": "• After an item has been shipped, it can no longer be cancelled. We apologize for any inconvenience.",
+      "secTitle": "Your refund request may be denied if:",
+      "secpoint1": "• It has been more than 10 days since items were delivered to you.",
+      "secpoint2": "• The items were returned without having received the seller's address from our team.",
+      "secpoint3": "• You are unable to provide a valid tracking number and the related information needed.",
+      "thirTitle": "How will I receive my refund?",
+      "thirpoint1": "• Refunds are processed back to the original payment method used to purchase the order.",
+      "thirpoint2": "• Typically, you can expect your payment provider to credit you for your refund within 14 business days. If you are having trouble locating your refund, we recommend contacting your payment provider for further assistance.",
+      "thirpoint3": "• If you used OXXO or Boleto, Ebanx will issue your refund based on your payment method."
+    },
+    "delivery": {
+      "title": "About Delivery",
+      "firTitle": "How long does it take to receive my order?",
+      "firp1": "<p>Estimated delivery time is as below:</p><p>1. Preparing Time: 1-3 days without exception.</p><p>2. Delivery Time: 5-14 workdays without exception.</p>",
+      "secTitle": "How can I track the shipping information?",
+      "secp1": "<p>Check it in your account by following the steps below:</p><p>Log in and click My Account-My Orders.</p>",
+      "thirTitle": "Why the shipping information still has not been updated for 3 days?",
+      "thirp1": "<p>In case of no updates within 3 days, please wait patiently since the shipping company needs time for updates. Otherwise, please contact the customer service.</p><p>Note: Please consult the shipping info in My Account.</p>",
+      "fourTitle": "Do I need to pay the custom tax?",
+      "fourp1": "No, Sambawake will pay the tax if customs clearance procedures are required, but there might be delays beyond our estimated delivery times.",
+      "fiveTitle": "What's the shipping fee and how can I get free shipping?",
+      "fivep1": "Shipping fee completely depends on the order amount. Free shipping if your goods amount is up to R$200 or your goods amount is up to 99.",
+      "sixTitle": "Does the shipping company request my ID Card?",
+      "sixp1": "Some shipping companies may request your ID Card as a proof to deliver your order, please show it them."
+    }
+  },
+  "footer": {
+    "title1": "公司信息",
+    "title2": "高质量的选择",
+    "title3": "优惠的价格",
+    "title4": "快递运输",
+    "company": "优质售后",
+    "customerService": "客户服务",
+    "shippingInformation": "物流信息",
+    "myFavorites": "我的收藏",
+    "returnPolicy": "保修与退货",
+    "faqSupport": "常见问题和支持",
+    "payMethod": "支付方式",
+    "stayConnected": "社交账号"
+  }
+}

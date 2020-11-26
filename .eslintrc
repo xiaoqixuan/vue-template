@@ -1,0 +1,69 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": ["plugin:vue/essential", "airbnb-base"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  },
+  "plugins": ["vue", "import"],
+  "rules": {
+    "no-alert": "off",
+    "no-console": "off",
+    "no-debugger": "off",
+    "linebreak-style": 0,
+    "no-restricted-globals": "off",
+    "class-methods-use-this": "off",
+    "lines-between-class-members" : "off",
+    "import/prefer-default-export": "off",
+    "import/order": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
+    "import/no-unresolved": "off",
+    "arrow-body-style":"off",
+    "prefer-promise-reject-errors": "off",
+    "arrow-parens": "off",
+    "max-len": "off",
+    "operator-linebreak": "off",
+    "no-control-regex": "off",
+    "no-unused-vars": "warn",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
+    "no-undef": "off",
+    "no-useless-escape": "off",
+    "no-plusplus": "off",
+    "no-restricted-syntax": "warn",
+    "prefer-destructuring": "warn",
+    "no-multi-assign": "warn",
+    "no-unused-expressions": "off",
+    "guard-for-in": "warn",
+    "no-mixed-operators": "off",
+    "dot-notation": "warn",
+    "consistent-return": "warn"
+  },
+  "settings": {
+    "import/parsers": {
+      // 使用 TypeScript parser
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      // 默认使用根目录 tsconfig.json
+      "typescript": {
+        // 从 <roo/>@types 读取类型定义
+        "alwaysTryTypes": true
+      }
+    }
+  }
+}
